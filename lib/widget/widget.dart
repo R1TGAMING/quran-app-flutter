@@ -1,1 +1,1 @@
-export 'card_widget.dart';
+export 'surah_card_widget.dart';

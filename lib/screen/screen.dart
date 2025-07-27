@@ -1,1 +1,1 @@
-export 'juz_list_screen.dart';
+export 'surah_list_screen.dart';
