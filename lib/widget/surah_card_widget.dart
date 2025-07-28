@@ -32,7 +32,7 @@ class SurahCardWidget extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (context) {
-                return VersePage(title: title);
+                return VersePage(title: title, surahNumber: surahNumber);
               },
             ),
           );

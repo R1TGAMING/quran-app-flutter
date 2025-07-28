@@ -1,29 +1,24 @@
+import 'package:al_quran_app/screen/screen.dart';
 import 'package:flutter/material.dart';
 import 'package:quran_flutter/quran.dart';
+import 'package:quran_flutter/quran_flutter.dart';
 
 class VersePage extends StatelessWidget {
   final String title;
+  final int surahNumber;
 
-  const VersePage({required this.title, super.key});
+  const VersePage({required this.title, required this.surahNumber, super.key});
 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
         backgroundColor: const Color.fromARGB(255, 48, 98, 49),
       ),
-      body: Column(
-        children: [
-          Center(
-            child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: Text(Quran.bismillah, style: TextStyle(fontSize: 20)),
-            ),
-          ),
-        ],
-      ),
+      body: Expanded(child: VerseScreen(surahNumber: surahNumber)),
       backgroundColor: const Color.fromARGB(255, 35, 58, 36),
     );
   }

@@ -39,7 +39,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           tabs: const [
             Tab(text: 'Surah'),
             Tab(text: 'Juz'),
-            Tab(text: 'Settings'),
+            Tab(text: 'About'),
           ],
         ),
       ),
