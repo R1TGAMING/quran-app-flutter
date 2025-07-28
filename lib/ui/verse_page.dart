@@ -1,7 +1,5 @@
 import 'package:al_quran_app/screen/screen.dart';
 import 'package:flutter/material.dart';
-import 'package:quran_flutter/quran.dart';
-import 'package:quran_flutter/quran_flutter.dart';
 
 class VersePage extends StatelessWidget {
   final String title;

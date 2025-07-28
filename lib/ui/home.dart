@@ -1,3 +1,4 @@
+import 'package:al_quran_app/screen/about_screen.dart';
 import 'package:al_quran_app/screen/surah_list_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -47,8 +48,13 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         controller: controller,
         children: [
           const SurahListScreen(),
-          Center(child: Text('Tab 2 Content')),
-          Center(child: Text('Tab 3 Content')),
+          Center(
+            child: Text(
+              "Coming Soon...",
+              style: TextStyle(color: Colors.white, fontSize: 24),
+            ),
+          ),
+          AboutScreen(),
         ],
       ),
       backgroundColor: const Color.fromARGB(255, 35, 58, 36),
