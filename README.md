@@ -1,16 +1,45 @@
-# al_quran_app
+![preview](assets\github_preview.png)
 
-A new Flutter project.
+<hr>
 
-## Getting Started
+# 📖  Al Quran App
+Sebuah aplikasi Al Quran yang dibuat dengan Flutter. Aplikasi ini menyediakan berbagai fitur membaca Al Quran
 
-This project is a starting point for a Flutter application.
+-- 
+# ✨ Fitur Unggulan:
+- 📚  **Tampilan Surah**: Menampilkan daftar surah dengan informasi lengkap.
 
-A few resources to get you started if this is your first Flutter project:
+- 📖 **Teks Arab & Terjemahan**: Menampilkan ayat-ayat Al-Qur'an dalam bahasa Arab beserta terjemahan dalam Bahasa Indonesia.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📥 **Offline Mode**: Seluruh data Al-Qur'an bisa diakses tanpa koneksi internet.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 💻How to Run:
+1. Clone repository ini:
+
+   ```bash
+   git clone https://github.com/R1TGAMING/quran-app-flutter.git
+   ```
+
+2. Masuk ke direktori proyek:
+
+   ```bash
+   cd al_quran_app
+   ```
+
+3. install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Jalankan aplikasi:
+
+   ```bash
+   flutter run
+   ```
+
+# 👾 Creator:
+
+- Code By **R1TGAMING**
+- Support Me **https://saweria.co/rafisofyan**
+- Follow Me on **[Instagram](https://www.instagram.com/ipigemink?utm_source=ig_web_button_share_sheet&igsh=azJxNWdqaHY4MG55)**, **[Tiktok](https://www.tiktok.com/@ipidev?is_from_webapp=1&sender_device=pc)**
