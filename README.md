@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://github.com/R1TGAMING/quran-app-flutter/blob/main/assets/github_preview.png?raw=true
-" alt="Logo" width="600" />
+  <img src="https://github.com/R1TGAMING/quran-app-flutter/blob/main/assets/github_preview.png?raw=true"
+alt="Logo" width="600" />
 </p>
 
 <hr>
