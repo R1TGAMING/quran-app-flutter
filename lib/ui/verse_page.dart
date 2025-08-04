@@ -16,7 +16,7 @@ class VersePage extends StatelessWidget {
         title: Text(title),
         backgroundColor: const Color.fromARGB(255, 48, 98, 49),
       ),
-      body: Expanded(child: VerseScreen(surahNumber: surahNumber)),
+      body: VerseScreen(surahNumber: surahNumber),
       backgroundColor: const Color.fromARGB(255, 35, 58, 36),
     );
   }

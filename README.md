@@ -45,6 +45,10 @@ Sebuah aplikasi Al Quran yang dibuat dengan Flutter. Aplikasi ini menyediakan be
    flutter run
    ```
 
+Atau
+
+Install aplikasi yang sudah di build di [Releases](https://github.com/R1TGAMING/quran-app-flutter/releases/tag/v1.0.0)
+
 # 👾 Creator:
 
 - Code By **R1TGAMING**
